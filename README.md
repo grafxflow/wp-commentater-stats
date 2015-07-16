@@ -1,4 +1,4 @@
-# wp-commentater-stats
+# wp-comments-stats V.1
 
 This WordPress Plugin is based on the original plugin 'Comment Stats' found at https://wordpress.org/plugins/comment-stats/ with a few more elements added.
 
