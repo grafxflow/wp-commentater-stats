@@ -24,3 +24,5 @@ Based on the tutorial founnd at http://premium.wpmudev.org/blog/adding-custom-wi
 Admin
 ----------
 
+![Dashboard preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/admin-wp-comment-stats.jpg)
+
