@@ -6,12 +6,10 @@ It has been tested in WordPress Version 4.2.2.
 
 Usage
 ----------
-
 Once installed it can be found in the submenu **Comments** -> **WP Comment Stats**. Plus viewed on the **dashboard** using the name **WP Comments Stats**.
 
 Dashboard
 ----------
-
 Currently the dashboard shows 3 graphs with comment counts and dates.
 Based on the tutorial founnd at http://premium.wpmudev.org/blog/adding-custom-widgets-to-the-wordpress-admin-dashboard/
 
@@ -23,6 +21,7 @@ Based on the tutorial founnd at http://premium.wpmudev.org/blog/adding-custom-wi
 
 Admin
 ----------
+In the admin page it has been updated to work with WordPress 4.2.2 and now allows the order by **Period**, **Approved**, **Posts Discussed**, **CS. Names**, **CS. Emails**, **CS. URLs**, **CS.IPs** (CS. = Commentator Statistics).
 
 ![Dashboard preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/admin-wp-comment-stats.jpg)
 
