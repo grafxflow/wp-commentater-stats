@@ -23,5 +23,15 @@ Admin
 ----------
 In the admin page it has been updated to work with WordPress 4.2.2 and now allows the order by **Period**, **Approved**, **Posts Discussed**, **CS. Names**, **CS. Emails**, **CS. URLs**, **CS.IPs** (CS. = Commentator Statistics).
 
-![Dashboard preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/admin-wp-comment-stats.jpg)
+It is made up of the following details...
+
+Page Item | Description
+------------ | -------------
+Period | Should be self-explanatory, it is the month and year for that particular row.
+Approved | Shows the total number of comments that have been **APPROVED**.
+Posts Discussed | Shows you the total number of posts during this period that received at least 1 approved comment.
+Commentator Statistics (CS.) | Shows you the unique number for each of the sub-items: **CS. Names**: Total number of unique names used. **CS. Emails**: Total number of unique email addresses used. **CS. URLs**: Total number of unique websites used. **CS. IPs**: Total number of unique IP addresses
+Most Commented Post(s) | Lists all of your posts that received at least 1 comment. The posts show here are listed by the number of comments received during that period (NOTE: It is common for a blog post to get comments for months after it is posted, as such if it shows 10 posts this month for a comment but there are 20 in total, look at previous months to see when the other comments arrived on this post).
+
+![Admin Page preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/admin-wp-comment-stats.jpg)
 
