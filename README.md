@@ -11,7 +11,7 @@ Once installed it can be found in the submenu **Comments** -> **WP Comment Stats
 Dashboard
 ----------
 Currently the dashboard shows 3 graphs with comment counts and dates.
-Based on the tutorial founnd at http://premium.wpmudev.org/blog/adding-custom-widgets-to-the-wordpress-admin-dashboard/
+Based on the tutorial found at http://premium.wpmudev.org/blog/adding-custom-widgets-to-the-wordpress-admin-dashboard/
 
 1. Comments in the past 10 years
 2. Comments in the past 12 months
