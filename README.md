@@ -19,7 +19,7 @@ Based on the tutorial founnd at http://premium.wpmudev.org/blog/adding-custom-wi
 2. Comments in the past 12 months
 3. Comments in the past 7 days
 
-![Dashboard preview](http://25.io/mou/Mou_128.png)
+![Dashboard preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/dashboard-wp-comment-stats.jpg)
 
 Admin
 ----------
