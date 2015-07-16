@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WP Comment Stats
-Plugin URI: http://www.grafxflow.co.uk
+Plugin URI: http://www.grafxflow.co.uk/blog/wordpress/wp-comment-stats-plugin/
 Description: Shows the comments statistics breakdown plus a dashboard output
-Version: 1
-Author: grafxflow.co.uk
+Version: 1.0.0
+Author: jammy-to-go
 Author URI: http://www.grafxflow.co.uk
 */
 
