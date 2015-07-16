@@ -5,5 +5,6 @@ This WordPress Plugin is based on the original plugin 'Comment Stats' found at h
 It has been tested in WordPress Version 4.2.2.
 
 Usage
+==========
 
 Once installed it can be found in the submenu **Comments** -> **WP Comment Stats**. Plus viewed on the **dashboard** using the name **WP Comments Stats**.
