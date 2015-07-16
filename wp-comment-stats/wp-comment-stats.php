@@ -31,13 +31,7 @@ if (!class_exists('WP_List_Table')) {
 
         public function __construct()
         {	
-			/* parent :: __construct(array(
-                'singular' => "ftraveler",
-                'plural' => "ftraveler",
-                'ajax' => true
-            )); */
-			//$this->test_start_header();
-		
+			// NOTE: TO BE UPDATED
         }
 
         private function get_sql_results()
@@ -290,7 +284,7 @@ function comments_stats_list()
 	?>
     <div class="wrap">
     	
-        <h2><?php echo __('WP Comments Stats'); ?></h2>
+        <h2><?php echo __('WP Comment Stats'); ?></h2>
         
         <p>This page shows you various statistics about your comments for every month. <span style="font-style:italic;"><strong>Scroll down to the bottom of the page to see definitions for each column in the table</strong></span>. Please note that this plugin is in it's very early stages of development, as such there may be some bugs in the numbers.</p>
     
