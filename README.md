@@ -17,7 +17,7 @@ Based on the tutorial found at http://premium.wpmudev.org/blog/adding-custom-wid
 2. Comments in the past 12 months
 3. Comments in the past 7 days
 
-![Dashboard preview](https://grafxflow.co.uk/storage/app/media/blog-images/2015/9337/dashboard-wp-comment-stats.jpg)
+![Dashboard preview](https://grafxflow.co.uk/storage/app/media/blog-images/2015/9337/dashboard-wp-comment-stats.png)
 
 Admin
 ----------
