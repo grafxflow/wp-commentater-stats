@@ -1,8 +1,8 @@
-# wp-comments-stats V.1
+# wp-comments-stats V.1.0.1
 
 This WordPress Plugin is based on the original plugin 'Comment Stats' found at https://wordpress.org/plugins/comment-stats/ with a few more elements added.
 
-It has been tested in WordPress Version 4.2.2 so should also work with Version 3.5.
+It has been tested in WordPress Version 4.9.7 so should also work with Version 3.5.
 
 Usage
 ----------
@@ -17,7 +17,7 @@ Based on the tutorial found at http://premium.wpmudev.org/blog/adding-custom-wid
 2. Comments in the past 12 months
 3. Comments in the past 7 days
 
-![Dashboard preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/dashboard-wp-comment-stats.jpg)
+![Dashboard preview](https://grafxflow.co.uk/storage/app/media/blog-images/2015/9337/dashboard-wp-comment-stats.jpg)
 
 Admin
 ----------
@@ -33,9 +33,12 @@ Posts Discussed | Shows you the total number of posts during this period that re
 Commentator Statistics (CS.) | Shows you the unique number for each of the sub-items: **CS. Names**: Total number of unique names used. **CS. Emails**: Total number of unique email addresses used. **CS. URLs**: Total number of unique websites used. **CS. IPs**: Total number of unique IP addresses
 Most Commented Post(s) | Lists all of your posts that received at least 1 comment. The posts show here are listed by the number of comments received during that period (NOTE: It is common for a blog post to get comments for months after it is posted, as such if it shows 10 posts this month for a comment but there are 20 in total, look at previous months to see when the other comments arrived on this post).
 
-![Admin Page preview](http://www.grafxflow.co.uk/images/github/wp-comment-stats/admin-wp-comment-stats.jpg)
+![Admin Page preview](https://grafxflow.co.uk/storage/app/media/blog-images/2015/9337/admin-wp-comment-stats.png)
 
 Changelog
 ----------
 **V1** - Initial Release
+
+**V1.0.1** - Issue Sorted for error output '**Call to a member function... ...on a non-object....**'
+
 
