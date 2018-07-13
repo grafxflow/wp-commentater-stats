@@ -1,8 +1,8 @@
-# wp-comments-stats V.1.0.1
+# wp-comments-stats V.1.0.2
 
 This WordPress Plugin is based on the original plugin 'Comment Stats' found at https://wordpress.org/plugins/comment-stats/ with a few more elements added.
 
-It has been tested in WordPress Version 4.9.7 so should also work with Version 3.5.
+It has been tested in WordPress Version 4.9.7 so should also work with Version 3.9.25.
 
 Usage
 ----------
@@ -21,7 +21,7 @@ Based on the tutorial found at http://premium.wpmudev.org/blog/adding-custom-wid
 
 Admin
 ----------
-In the admin page it has been updated to work with WordPress 4.2.2 and now allows the order by **Period**, **Approved**, **Posts Discussed**, **CS. Names**, **CS. Emails**, **CS. URLs**, **CS.IPs** (CS. = Commentator Statistics).
+In the admin page it has been updated to work with WordPress 4.9.7 and now allows the order by **Period**, **Approved**, **Posts Discussed**, **CS. Names**, **CS. Emails**, **CS. URLs**, **CS.IPs** (CS. = Commentator Statistics).
 
 It is made up of the following details...
 
@@ -39,6 +39,10 @@ Changelog
 ----------
 **V1** - Initial Release
 
-**V1.0.1** - Issue Sorted for error output '**Call to a member function... ...on a non-object....**'
+**V1.0.1** - Fix to make work with WordPress 4.9.7 plus tidy-up code layout
 
+```
+Required ‘$csList->screen = get_current_screen();’
+```
 
+**V1.0.2** - Functions moved into class + seperated views into folder

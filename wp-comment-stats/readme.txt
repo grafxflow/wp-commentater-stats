@@ -1,9 +1,9 @@
 === WP Comment Stats ===
 Contributors: jammy to go
 Tags: comments, stats, dashboard comment stats
-Requires at least: 3.5
+Requires at least: 3.9.25
 Tested up to: 4.9.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,10 @@ The Dashboard widget shows the following comment stats (It is based on the tutor
 Would you like to like to contribute to **WP Comments Stats**? You are more than welcome to submit your pull requests on the [GitHub repo](https://github.com/grafxflow/wp-comments-stats). Also, if you have any notes about the code, please open a ticket on the issue tracker.
 
 == Changelog ==
+
+= 1.0.2 =
+Functions moved into class
+Separate views into folder
 
 = 1.0.1 =
 Fix to make work with WordPress 4.9.7
