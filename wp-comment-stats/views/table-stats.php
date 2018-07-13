@@ -13,38 +13,38 @@
     
     <h3>Column Definitions</h3>
 
-    <table width="100%" bgcolor="#e6e6e6" border="0" cellspacing="0" cellpadding="10">
+    <table class="wp-comment-stats-dashboard-stats" border="0" cellspacing="0" cellpadding="0">
         <tbody>
             <tr>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p><strong>Period</strong>
                     </p>
                 </td>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p>Should be self-explanatory, it is the month and year for that particular row.</p>
                 </td>
             </tr>
             <tr>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p><strong>Approved</strong></p>
                 </td>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
-                    <p>Shows the total number of comments that have been <span style="font-style:italic;"><strong>APPROVED</strong></span>.</p>
+                <td class="line" valign="top">
+                    <p>Shows the total number of comments that have been <span><strong>APPROVED</strong></span>.</p>
                 </td>
             </tr>
             <tr>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p><strong>Posts Discussed</strong></p>
                 </td>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p>Shows you the total number of posts during this period that received at least 1 approved comment.</p>
                 </td>
             </tr>
             <tr>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p><strong>Commentator Statistics (CS.)</strong></p>
                 </td>
-                <td style="border-bottom:1px solid #a0a5aa;" valign="top">
+                <td class="line" valign="top">
                     <p>Shows you the unique number for each of the sub-items:</p>
                     <ul>
                         <li><strong>CS. Names</strong>: Total number of unique names used</li>

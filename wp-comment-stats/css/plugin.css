@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+.popular-link {
+    line-height: 12px; 
+    font-size: 10px;
+}
+.wp-comment-stats-dashboard-stats {
+    width: 100%;
+    background-color: #E6E6E6;
+    padding: 0 15px 0 15px;
+}
+.wp-comment-stats-dashboard-stats td {
+    padding-right: 15px;
+}
+.wp-comment-stats-dashboard-stats td.line {
+    border-bottom: 1px solid #A0A5AA;
+}
+.wp-comment-stats-dashboard-stats td p > span {
+    font-style: italic;
+}

@@ -3,7 +3,7 @@
 Plugin Name: WP Comment Stats
 Plugin URI: https://grafxflow.co.uk/blog/content-management-systems/wp-comment-stats-plugin
 Description: Shows the comments statistics breakdown plus a dashboard output
-Version: 1.0.2
+Version: 1.0.3
 Author: jammy-to-go
 Author URI: https://grafxflow.co.uk
 */
@@ -39,6 +39,11 @@ class CS_WP_Table extends WP_List_Table {
     
     public function init() {
         add_action('admin_menu', array($this, 'comments_stats_admin_actions'));
+        add_action('admin_enqueue_scripts', array($this, 'table_stats_css_include'));
+    }
+    
+    public function table_stats_css_include() {
+        wp_enqueue_style( 'table-stats-widget-styles', plugins_url( '', __FILE__ ) . '/css/plugin.css' );
     }
     
     public function comments_stats_admin_actions() {
@@ -46,7 +51,7 @@ class CS_WP_Table extends WP_List_Table {
     }
     
     public function comments_stats_list() {
-        include( plugin_dir_path( __FILE__ ) . 'views/dashboard-stats.php');
+        include( plugin_dir_path( __FILE__ ) . 'views/table-stats.php');
     }
 
     private function get_sql_results() {
@@ -227,7 +232,7 @@ class CS_WP_Table extends WP_List_Table {
             $temp_value = ''; 
             
             foreach ( $popularquery as $counting ):
-                $temp_value .= "<strong style='line-height:12px; font-size:10px;'>$counting->count</strong> | <a style='font-size:10px; line-height:12px;' href=".get_permalink( $counting->commentid, false ).">$counting->title</a><br />";
+                $temp_value .= '<strong class="popular-link">'.$counting->count.'</strong> | <a class="popular-link" href="'.get_permalink( $counting->commentid, false ).'">'.$counting->title.'</a><br />';
             endforeach;
 
             $posts_array[$key]->commented_posts = $temp_value;
@@ -253,7 +258,7 @@ class CS_WP_Table extends WP_List_Table {
             $this->extra_tablenav($which);
             $this->pagination($which);
             ?>
-            <br class="clear"/>
+            <div class="clear"></div>
         </div>
         <?php
     }
@@ -278,6 +283,7 @@ class CS_WP_Table extends WP_List_Table {
 
 }
 
+// Initiate table class
 $CS_WP_Table = new CS_WP_Table();
 
 // Add the Dashboard

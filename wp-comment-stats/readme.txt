@@ -3,7 +3,7 @@ Contributors: jammy to go
 Tags: comments, stats, dashboard comment stats
 Requires at least: 3.9.25
 Tested up to: 4.9.7
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,9 +21,9 @@ The admin comment stats shows the following comment stats:
 
 The Dashboard widget shows the following comment stats (It is based on the tutorial found at http://premium.wpmudev.org/blog/adding-custom-widgets-to-the-wordpress-admin-dashboard/):
 
+1. Comments in the past 7 days
 1. Comments in the past 10 years
 1. Comments in the past 12 months
-1. Comments in the past 7 days
 
 == Installation ==
 
@@ -43,12 +43,18 @@ Would you like to like to contribute to **WP Comments Stats**? You are more than
 
 == Changelog ==
 
+= 1.0.3 =
+Functions moved into class for the dashboard-widget
+Separate css files
+Dashboard-widget only outputs approved comments
+Dashbaord-widget order changed to 7 days, 12 months, 10 years
+
 = 1.0.2 =
 Functions moved into class
 Separate views into folder
 
 = 1.0.1 =
-Fix to make work with WordPress 4.9.7
+Fix to make work with WordPress 4.9.7 plus tidy-up code layout
 Required '$csList->screen = get_current_screen();'
 
 = 1.0.0 =

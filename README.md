@@ -37,7 +37,7 @@ Most Commented Post(s) | Lists all of your posts that received at least 1 commen
 
 Changelog
 ----------
-**V1.0.2** - Functions moved into class + seperated views into folder
+**V1.0.2** - Functions moved into class, separate views into folder
 
 **V1.0.1** - Fix to make work with WordPress 4.9.7 plus tidy-up code layout
 
