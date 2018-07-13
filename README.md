@@ -1,4 +1,4 @@
-# wp-comments-stats V.1.0.2
+# wp-comments-stats V.1.0.3
 
 This WordPress Plugin is based on the original plugin 'Comment Stats' found at https://wordpress.org/plugins/comment-stats/ with a few more elements added.
 
@@ -37,6 +37,8 @@ Most Commented Post(s) | Lists all of your posts that received at least 1 commen
 
 Changelog
 ----------
+**V1.0.3** - Functions moved into class for the dashboard-widget, Separate css files, Dashboard-widget only outputs approved comments, Dashboord-widget order changed to 7 days, 12 months, 10 years
+
 **V1.0.2** - Functions moved into class, separate views into folder
 
 **V1.0.1** - Fix to make work with WordPress 4.9.7 plus tidy-up code layout
